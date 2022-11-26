@@ -10,7 +10,8 @@
       "string": [
         "working from home",
         "watching Netflix",
-        "watching AmazonPrime"
+        "watching AmazonPrime",
+        "watching Disney+"
       ]
     },
     "email": {
@@ -21,8 +22,8 @@
     },
     "age": {
       "int": {
-        "min": 21,
-        "max": 100
+        "min": 15,
+        "max": 80
       }
     },
     "isPublic": {
