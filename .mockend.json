@@ -1,14 +1,25 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "User": [
+    {
+      "id": 1,
+      "name": "Liliana",
+      "dateOfBirth": "14/07/1999",
+      "email": "lipaocaspi@hotmail.com",
+      "password": "soundsOfSilence"
+    },
+    {
+      "id": 2,
+      "name": "Paola",
+      "dateOfBirth": "14/07/1999",
+      "email": "lipaocaspi14@hotmail.com",
+      "password": "soundsOfSilence2"
+    },
+    {
+      "id": 3,
+      "name": "Paula",
+      "dateOfBirth": "14/07/1999",
+      "email": "lipaocaspi_14@hotmail.com",
+      "password": "soundsOfSilence3"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  ]
 }
