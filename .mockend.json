@@ -1,25 +1,35 @@
 {
-  "User": [
-    {
-      "id": 1,
-      "name": "Liliana",
-      "dateOfBirth": "14/07/1999",
-      "email": "lipaocaspi@hotmail.com",
-      "password": "soundsOfSilence"
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    {
-      "id": 2,
-      "name": "Paola",
-      "dateOfBirth": "14/07/1999",
-      "email": "lipaocaspi14@hotmail.com",
-      "password": "soundsOfSilence2"
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
     },
-    {
-      "id": 3,
-      "name": "Paula",
-      "dateOfBirth": "14/07/1999",
-      "email": "lipaocaspi_14@hotmail.com",
-      "password": "soundsOfSilence3"
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     }
-  ]
+  }
 }
