@@ -29,19 +29,5 @@
     "isPublic": {
       "boolean": {}
     }
-  },
-  "Tool": {
-    "name": {
-      "string": {}
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 15,
-        "max": 80
-      }
-    }
   }
 }
