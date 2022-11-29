@@ -78,7 +78,7 @@
       ]
     },
     "plate": {
-      "string": {} 
+      "regexp": "[A-Z]{3}[0-9]{3}"
     },
     "price": {
       "int": {
