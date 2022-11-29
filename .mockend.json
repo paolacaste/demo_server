@@ -31,10 +31,20 @@
       }
     },
     "start": {
-      "string": {}
+      "string": [
+        "UIS",
+        "Provenza"
+        "Girón",
+        "Cacique"
+      ]
     },
     "end": {
-      "string": {}
+      "string": [
+        "UIS",
+        "Provenza"
+        "Girón",
+        "Cacique"
+      ]
     },
     "dateAndTime": {
       "dateTime": {
@@ -55,7 +65,17 @@
       }
     },
     "color": {
-      "string": {}
+      "string": [
+        "Amarillo",
+        "Azul",
+        "Rojo",
+        "Verde",
+        "Naranja",
+        "Morado",
+        "Gris",
+        "Negro",
+        "Blanco"
+      ]
     },
     "plate": {
       "string": {} 
