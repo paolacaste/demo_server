@@ -1,7 +1,17 @@
 {
   "User": {
     "name": {
-      "string": {}
+      "string": [
+        "Camila Torres",
+        "Liliana Castellanos",
+        "Santiago Florez",
+        "Martha Rivera",
+        "Ángeles Castillo",
+        "Pablo Martinez",
+        "Paola Pinzón",
+        "Tomás Carrillo",
+        "Clara Castellanos"
+      ]
     },
     "dateOfBirth": {
       "regexp": "[0-9]{1,2}\/[1-9]{1,2}\/[0-2]{4}"
@@ -10,7 +20,7 @@
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" 
     },
     "password": {
-      "regexp" : "(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#&*~]).{8,}"
+      "string": {}
     }
   },
   "Ride": {
