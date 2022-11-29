@@ -7,7 +7,9 @@
       "string": {}
     },
     "email": {
-      "string": {}
+      "regexp": {
+        "[^@]+@[^@]+\.[a-zA-Z]{2,}"
+      }
     },
     "password": {
       "string" : {}
